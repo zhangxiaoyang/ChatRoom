@@ -10,7 +10,7 @@ var ChatRoom = module.exports = function(io) {
 };
 
 
-ChatRoom.JOIN = 'JOIN'; // clients join chartroom
+ChatRoom.JOIN = 'JOIN'; // clients join chatroom
 ChatRoom.SEND = 'SEND'; // client sends message to server
 ChatRoom.RECV = function(uid) {
   return 'RECV' + uid;

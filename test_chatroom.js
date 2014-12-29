@@ -4,5 +4,5 @@
 var io = require('socket.io').listen(8099);
 var ChatRoom = require('./ChatRoom.js');
 
-chartroom = new ChatRoom(io);
-chartroom.start();
+chatroom = new ChatRoom(io);
+chatroom.start();
