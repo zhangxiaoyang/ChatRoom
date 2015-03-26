@@ -15,11 +15,13 @@ SocketPool.prototype.add = function(uid, socket) {
 
 
 SocketPool.prototype.remove = function(uid) {
+  /*
   if(uid in this.pool) {
     console.log('Force disconnecting previous socket. uid:' + uid + ' socket:' + this.pool[uid].id);
     this.pool[uid].disconnect();
     delete this.pool[uid];
   }
+  */
 };
 
 
